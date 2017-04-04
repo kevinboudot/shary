@@ -4,7 +4,7 @@ Shary is a Mac OS App created to easily send files in the cloud and paste link t
 
 It sends media files to an Amazon S3 Bucket, and sends datas informations to an other server, used to create an access link and see our medias on a webpage.
 
-This is only the "App" part of services like Infinit, CloudApp, Cloudup.. it only send datas, if you want a complete service like Infinit, CloudApp or Cloudup, you need to create your own service to host webpages, and create your own S3 bucket to store medias.
+This is only the "App" part of services like Infinit, CloudApp, Cloudup.. it only sends datas, if you want a complete service you need to create your own website to host webpages, and create your own S3 bucket to store medias.
 
 ### To Do
 
