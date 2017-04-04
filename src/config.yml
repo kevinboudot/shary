@@ -1,0 +1,34 @@
+ui:
+  tab:
+    tooltip: 'Drag your file here or take a screenshot'
+    icons:
+      default: '/assets/img/tray/defaultTemplate.png'
+      drag: '/assets/img/tray/dragTemplate.png'
+      drop: '/assets/img/tray/dropTemplate.png'
+      step: '/assets/img/tray/stepTemplate.png'
+
+  notifier:
+    sounds:
+      link: '/assets/audio/link.wav'
+      upload: '/assets/audio/upload.wav'
+
+  screenshot:
+
+  clipboard:
+
+sender:
+
+  s3:
+    signatureVersion: 'v4'
+    key: '[ your accessKeyId ]'
+    secret: '[ your secretAccessKey ]'
+    bucket: '[ your bucket name ]'
+    path: '[ your specific upload folder ]'secretAccessKey # ex : share/
+    acl: 'public-read'
+
+  website:
+    service: '[ https://mysite.com/api/post/ ] ' # the web service who create a link and store datas informations
+
+storer:
+  file: 'store.json'
+

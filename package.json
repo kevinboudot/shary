@@ -1,0 +1,26 @@
+{
+  "name": "Share",
+  "version": "0.1.0",
+  "description": "Kevin Boudot Share Service",
+  "author": "Kevin Boudot",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "electron .",
+    "build": "electron-packager . Share --out=dist --platform=darwin --arch=x64 --electronVersion=1.6.2 --icon=assets/img/main/icon.icns --overwrite"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "auto-launch": "^5.0.1",
+    "aws-sdk": "^2.36.0",
+    "file-type": "^4.1.0",
+    "js-yaml": "^3.8.2",
+    "menubar": "^5.2.3",
+    "node-spotlight": "^0.1.0",
+    "play-sound": "^1.1.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-packager": "^8.6.0"
+  }
+}
