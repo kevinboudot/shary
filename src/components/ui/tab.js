@@ -38,7 +38,7 @@ module.exports = class Tab extends EventEmitter{
 	createAutolaunch(){
 
 		this.autolaunch = new AutoLaunch({
-			name: 'Share'
+			name: 'Shary'
 		});
 
 		if( Storer.get( 'launchAtStart' ) ){
@@ -67,6 +67,11 @@ module.exports = class Tab extends EventEmitter{
 				checked: Storer.get( 'launchAtStart' ),
 				click( item ){
 					Storer.set( 'launchAtStart', item.checked );
+					if( item.checked ){
+						_this.autolaunch.enable();
+					} else {
+						_this.autolaunch.disable();
+					}
 				}
 			},
 			{

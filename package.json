@@ -1,12 +1,12 @@
 {
-  "name": "Share",
+  "name": "Shary",
   "version": "0.1.0",
-  "description": "Kevin Boudot Share Service",
+  "description": "Mac OS App to send files in the cloud and paste link in clipboard. (like Infinit, CloudApp, Cloudup..)",
   "author": "Kevin Boudot",
   "main": "src/index.js",
   "scripts": {
     "dev": "electron .",
-    "build": "electron-packager . Share --out=dist --platform=darwin --arch=x64 --electronVersion=1.6.2 --icon=assets/img/main/icon.icns --overwrite"
+    "build": "electron-packager . Shary --out=dist --platform=darwin --arch=x64 --electronVersion=1.6.2 --icon=assets/img/main/icon.icns --overwrite"
   },
   "license": "MIT",
   "dependencies": {

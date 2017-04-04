@@ -23,11 +23,11 @@ sender:
     key: '[ your accessKeyId ]'
     secret: '[ your secretAccessKey ]'
     bucket: '[ your bucket name ]'
-    path: '[ your specific upload folder ]'secretAccessKey # ex : share/
+    path: '[ your specific upload folder ]' # ex : share/
     acl: 'public-read'
 
   website:
-    service: '[ https://mysite.com/api/post/ ] ' # the web service who create a link and store datas informations
+    service: '[ https://mysite.com/api/post/ ]' # the web service who create a link and store datas informations
 
 storer:
   file: 'store.json'

@@ -14,7 +14,7 @@ const Config = yaml.safeLoad( fs.readFileSync( path.join( __dirname, './config.y
 const Ui = require( './components/ui' );
 const Sender = require( './components/sender' );
 
-class Share {
+class Shary {
 
 	constructor() {
 
@@ -73,4 +73,4 @@ class Share {
 
 }
 
-new Share();
+new Shary();
