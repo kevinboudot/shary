@@ -11,13 +11,13 @@ This is only the "App" part of services like Infinit, CloudApp, Cloudup.. it onl
 - [x] Drag & drop files on App icon
 - [x] Send screenshots automatically (cmd + shift + 3 & cmd + shift + 4)
 - [x] Paste link to clipboard
-- [x] Two steps sound notification : First sound when link is created, second one when upload is finished
+- [x] Two steps sound notification: First sound when link is created, second one when upload is finished
 - [x] Allow Multiple files
-- [x] Preference : Launch at start
+- [x] Preference: Launch at start
 - [x] Prevent new uploads during process
 - [ ] Improve area screenshot (cmd + shift + 4)
-- [ ] Offline : Specific icon & prevent new uploads
-- [ ] Preference : enable/disable screenshot service
+- [ ] Offline: Specific icon & prevent new uploads
+- [ ] Preference: enable/disable screenshot service
 - [ ] Video Screen (https://github.com/hokein/electron-sample-apps/tree/master/desktop-capture)
 - [ ] ..
 
@@ -27,13 +27,13 @@ Mac OS 10.12.4
 
 ### Use
 
-dev :
+dev:
 
 ```js
 npm run dev
 ````
 
-build :
+build:
 
 ```js
 npm run build
