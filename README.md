@@ -2,11 +2,13 @@
 
 ![alt tag](http://i.imgur.com/NvtGzSH.png)
 
-Shary is a Mac OS App created to easily send files in the cloud and paste link to clipboard. This App is written in Javascript with Electron.
+Shary is a Mac OS App created to easily send files in the cloud and automatically paste a link to your clipboard. This App is written in Javascript with Electron.
 
-It sends media files to an Amazon S3 Bucket, and sends datas informations to an other server, used to create an access link and see our medias on a webpage.
+It sends media files to an Amazon S3 Bucket, and sends the associated data information to another server, used to create an access link and display said media on a webpage.
 
-This is only the "App" part of services like Infinit, CloudApp, Cloudup.. it only sends datas, if you want a complete service you need to create your own website to host webpages, and create your own S3 bucket to store medias.
+This is only the “App” part of services like Infinit, CloudApp, Cloudup… it only sends the data. If you want a complete service, you will need to create your own website to host webpages, and create your own S3 bucket to store your media.
+
+
 
 ### To Do
 
