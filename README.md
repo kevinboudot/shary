@@ -1,5 +1,7 @@
 # Shary
 
+![alt tag](http://i.imgur.com/4vqUwio.png)
+
 Shary is a Mac OS App created to easily send files in the cloud and paste link to clipboard. This App is written in Javascript with Electron.
 
 It sends media files to an Amazon S3 Bucket, and sends datas informations to an other server, used to create an access link and see our medias on a webpage.
