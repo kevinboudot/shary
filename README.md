@@ -1,6 +1,6 @@
 # Shary
 
-![alt tag](http://i.imgur.com/4vqUwio.png)
+![alt tag](http://i.imgur.com/NvtGzSH.png)
 
 Shary is a Mac OS App created to easily send files in the cloud and paste link to clipboard. This App is written in Javascript with Electron.
 
