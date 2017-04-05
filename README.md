@@ -19,6 +19,7 @@ This is only the “App” part of services like Infinit, CloudApp, Cloudup… i
 - [x] Allow Multiple files
 - [x] Preference: Launch at start
 - [x] Prevent new uploads during process
+- [ ] Set minimum time between sound notifications
 - [ ] Improve area screenshot (cmd + shift + 4)
 - [ ] Offline: Specific icon & prevent new uploads
 - [ ] Preference: enable/disable screenshot service
