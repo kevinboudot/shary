@@ -1,6 +1,6 @@
 // Electron's App
 
-const { app } = require( 'electron' );
+const { app, dialog } = require( 'electron' );
 
 // config
 
@@ -67,7 +67,7 @@ class Shary {
 
 	errorHandler( error ){
 
-		console.log( error );
+		dialog.showErrorBox( 'Error', JSON.stringify( error ) );
 
 	}
 
