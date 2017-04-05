@@ -1,7 +1,7 @@
 {
   "name": "Shary",
   "version": "0.1.0",
-  "description": "Mac OS App to send files in the cloud and paste link in clipboard. (like Infinit, CloudApp, Cloudup..)",
+  "description": "Mac OS App to send files in the cloud and paste link to clipboard. (like Infinit, CloudApp, Cloudup..)",
   "author": "Kevin Boudot",
   "main": "src/index.js",
   "scripts": {
@@ -14,7 +14,6 @@
     "aws-sdk": "^2.36.0",
     "file-type": "^4.1.0",
     "js-yaml": "^3.8.2",
-    "menubar": "^5.2.3",
     "node-spotlight": "^0.1.0",
     "play-sound": "^1.1.1",
     "request": "^2.81.0"

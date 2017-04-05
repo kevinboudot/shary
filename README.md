@@ -24,3 +24,17 @@ This is only the "App" part of services like Infinit, CloudApp, Cloudup.. it onl
 ### Compatibility
 
 Mac OS 10.12.4
+
+### Use
+
+dev :
+
+```js
+npm run dev
+````
+
+build :
+
+```js
+npm run build
+````
